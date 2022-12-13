@@ -11,7 +11,7 @@ for (let i=0; i<dlugoscTablicy; i++){
     console.log("Kwadrat liczby ", numbers[i],"wynosi : ",kwadrat);
     sumaWszystkich = sumaWszystkich + kwadrat;
     }
-     console.log("Suma wszystkich kwadratów wynosi : ", sumaWszystkich);
+     return sumaWszystkich;
 }
 
-sumaAll(numbers);
+console.log("Suma wszystkich kwadratów wynosi : ",sumaAll(numbers));
